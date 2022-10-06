@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: right;
+  height: 60px;
+  background-color: none;
+  padding: 0 15px;
+  color: azure;
+}
+
+.navbar h3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar h3:hover {
+  color: #fc03e3;
+}
+
+.navbar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.footer a {
+  padding: 0.4rem;
+}
+.footer a:hover {
+  color: #fc03e3;
+}
+
+.main-title {
+  height: 425px;
+  padding: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg);
+  background-size: cover;
+}
+
+.title-page {
+  height: 425px;
+  padding: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background-color: #fc03e3;
+  background-size: cover;
+  color: azure;
+}
+
+.blog-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0);
+}/*# sourceMappingURL=common.css.map */

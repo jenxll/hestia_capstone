@@ -1,0 +1,58 @@
+@import "main";
+
+.navbar h3 {
+  display: flex;
+  justify-content: flex-start;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+.navbar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.footer a {
+  padding: 0.4rem;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+.main-title {
+  height: 425px;
+  padding: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg);
+  background-size: cover;
+}
+.title-page {
+  height: 425px;
+  padding: 40vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+  background-color: $secondary-color;
+  background-size: cover;
+  color: azure;
+}
+
+.blog-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  color: #0000;
+}
