@@ -1,51 +1,46 @@
-@import "main";
+$primary-color: #272727;
+$secondary-color: rbg(202, 45, 122);
+$gradient-color: linear-gradient(
+  90deg,
+  rgba(202, 45, 122, 1) 0%,
+  rgba(255, 86, 157, 1) 35%,
+  rgba(199, 81, 192, 1) 100%
+);
 
-.navbar h3 {
-  display: flex;
-  justify-content: flex-start;
-
-  &:hover {
-    color: $secondary-color;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  padding: 1rem;
-}
+  display: flex;
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: right;
+  height: 60px;
+  background-color: azure;
+  padding: 0 15px;
+  color: #999999;
 
-.footer {
-  position: fixed;
-  bottom: 1rem;
-  left: 1rem;
-}
+  h3 {
+    display: flex;
+    justify-content: flex-start;
 
-.footer a {
-  padding: 0.4rem;
-
-  &:hover {
-    color: $secondary-color;
+    &:hover {
+      color: $secondary-color;
+    }
   }
 }
-.main-title {
-  height: 425px;
-  padding: 40vh;
-  overflow: hidden;
-  align-items: center;
-  text-align: center;
-  background-image: url(https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg);
-  background-size: cover;
-}
+
 .title-page {
-  height: 425px;
-  padding: 40vh;
-  overflow: hidden;
+  height: 400px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: $secondary-color;
+  background: $gradient-color;
   background-size: cover;
+  font-size: 25px;
   color: azure;
 }
 
@@ -55,4 +50,18 @@
   align-items: center;
   background-color: #fff;
   color: #0000;
+}
+
+.footer {
+  background-color: #323437;
+  color: #999999;
+  padding: 30px 0px 18px;
+
+  a {
+    padding: 15px 15px;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
 }
