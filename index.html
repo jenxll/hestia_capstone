@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Hestia Capstone</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="stylesheet"
@@ -15,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
 
+    <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/home.css" />
   </head>
   <body>
@@ -37,31 +42,35 @@
         <button>SEE MORE</button>
       </div>
     </div>
-
     <div class="center-page">
       <h3>What we stand for</h3>
-      <i class="fas fa-th"></i>
-      <h5>Responsive</h5>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-
-      <i class="fas fa-th-list"></i>
-      <h5>Quality</h5>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-
-      <i class="fas fa-bars"></i>
-      <h5>Support</h5>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+      <div class="container">
+        <div class="centerpage-card responsive">
+          <i class="fas fa-th fa-5x"></i>
+          <h5>Responsive</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="centerpage-card quality">
+          <i class="fas fa-th-list fa-5x"></i>
+          <h5>Quality</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="centerpage-card support">
+          <i class="fas fa-bars fa-5x"></i>
+          <h5>Support</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
     </div>
-
     <div class="middle-page">
       <div class="middle-page-left">
         <h2>About Hestia</h2>
@@ -80,6 +89,27 @@
         />
       </div>
     </div>
+    <div class="blog-content">
+      <h3>Blog</h3>
+      <div class="blog-container">
+        <div class="centerpage-card">
+          <a href="./pages/boat.html">Worth A Thousand Words</a>
+          <p>Boat</p>
+        </div>
+        <div class="centerpage-card">
+          <a href="./pages/elements.html">Elements</a>
+          <p>
+            The purpose of this HTML is to help determine what default settings
+            are with CSS and to make sure that all possible HTML Elements are
+            included in this HTML so as to not miss anyRead more…
+          </p>
+        </div>
+        <div class="centerpage-card">
+          <a href="./pages/more-tags.html">More Tags</a>
+          <p>More of these posts need tags.</p>
+        </div>
+      </div>
+    </div>
     <div class="end-article">
       <h2>Get in Touch</h2>
       <i class="fas fa-map-marker-alt">Find us at the office</i>
@@ -90,12 +120,12 @@
 
     <div class="footer">
       <div class="footer-left">
-        <h6>Hestia | Developed by Themelsle</h6>
+        <a href="./pages/about.html">ABOUT</a>
+        <a href="./pages/parent.html">PARENT PAGE</a>
       </div>
+
       <div class="footer-right">
-      <h6><a href="about.html">ABOUT</a></h6>
-      <h6><a href="parentpage.html">PARENT PAGE</a></h6>
-      </div>
+        <h6>Hestia | Developed by Themelsle</h6>
       </div>
     </div>
   </body>

@@ -25,6 +25,11 @@
   background-image: url(https://wp-themes.com/wp-content/themes/hestia/assets/img/slider1.jpg);
   background-size: cover;
   color: azure;
+  .h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+  }
 }
 
 button {
@@ -39,4 +44,54 @@ button {
   background-color: rgba(233, 30, 98, 1);
   border: none;
   cursor: pointer;
+}
+.container {
+  height: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px 40px 40px;
+  border: 5px solid purple;
+
+  .responsive i {
+    color: #e91e63;
+  }
+  .quality i {
+    color: #00bcd4;
+  }
+
+  .support i {
+    color: rgb(48, 186, 48);
+  }
+}
+.middle-page {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/contact.jpeg);
+  background: cover;
+  font-size: 15px;
+  color: #fff;
+}
+
+.blog-container {
+  height: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px 40px 40px;
+  border: 5px solid #00bcd4;
+}
+.end-article {
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/contact.jpeg);
+  background: cover;
+  font-size: 15px;
+  color: #fff;
 }

@@ -9,6 +9,7 @@
   text-decoration: none;
   justify-content: space-evenly;
   align-items: right;
+  font-family: Roboto, sans-serif;
   height: 60px;
   background-color: azure;
   padding: 0 15px;
@@ -22,12 +23,29 @@
   color: rbg(202, 45, 122);
 }
 
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 9px 25px;
+  border-radius: 30px;
+  background-color: rgb(233, 30, 98);
+  border: none;
+  cursor: pointer;
+}
+
 .title-page {
+  height: 300px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background: linear-gradient(90deg, rgb(202, 45, 122) 0%, rgb(255, 86, 157) 35%, rgb(199, 81, 192) 100%);
+  background: linear-gradient(90deg, rgb(199, 81, 192) 0%, rgb(255, 86, 157) 35%, rgb(202, 45, 122) 100%);
   background-size: cover;
+  font-size: 25px;
   color: azure;
 }
 
@@ -43,12 +61,21 @@
   background-color: #323437;
   color: #999999;
   padding: 30px 0px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
-.footer a {
+.footer .footer-left a {
   padding: 15px 15px;
+  text-decoration: none;
+  color: inherit;
 }
-.footer a:hover {
+.footer .footer-left a:hover {
   color: rbg(202, 45, 122);
+}
+.footer .footer-right {
+  font-size: 14px;
 }
 
 .navbar h3 {
@@ -76,6 +103,11 @@
   background-size: cover;
   color: azure;
 }
+.main-title .h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+}
 
 button {
   font-family: Arial, Helvetica, sans-serif;
@@ -89,4 +121,55 @@ button {
   background-color: rgb(233, 30, 98);
   border: none;
   cursor: pointer;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px 40px 40px;
+  border: 5px solid purple;
+}
+.container .responsive i {
+  color: #e91e63;
+}
+.container .quality i {
+  color: #00bcd4;
+}
+.container .support i {
+  color: rgb(48, 186, 48);
+}
+
+.middle-page {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/contact.jpeg);
+  background: cover;
+  font-size: 15px;
+  color: #fff;
+}
+
+.blog-container {
+  height: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px 40px 40px;
+  border: 5px solid #00bcd4;
+}
+
+.end-article {
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/contact.jpeg);
+  background: cover;
+  font-size: 15px;
+  color: #fff;
 }/*# sourceMappingURL=home.css.map */
