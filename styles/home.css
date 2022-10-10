@@ -146,8 +146,9 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-repeat: no-repeat;
+  background-repeat: no repeat;
   background-image: url(../images/contact.jpeg);
+  background-attachment: scroll;
   background: cover;
   font-size: 15px;
   color: #fff;

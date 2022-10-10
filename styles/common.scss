@@ -12,7 +12,8 @@ $gradient-color: linear-gradient(
   margin: 0;
   padding: 0;
 }
-
+@mixin name {
+}
 .navbar {
   display: flex;
   text-decoration: none;
