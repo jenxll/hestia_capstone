@@ -10,18 +10,19 @@
   justify-content: space-evenly;
   align-items: right;
   font-family: Roboto, sans-serif;
+  font-size: 12px;
   height: 60px;
   padding: 0 15px;
   color: #999999;
 }
-.navbar h3 {
+.navbar a {
   display: flex;
   justify-content: flex-start;
   text-decoration: none;
   color: #999999;
 }
-.navbar h3:hover {
-  color: rbg(202, 45, 122);
+.navbar a:hover {
+  color: #e91e63;
 }
 
 button {
@@ -80,7 +81,7 @@ button {
   color: inherit;
 }
 .footer .footer-left a:hover {
-  color: rbg(202, 45, 122);
+  color: #e91e63;
 }
 .footer .footer-right {
   font-size: 14px;

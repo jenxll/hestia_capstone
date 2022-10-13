@@ -1,5 +1,5 @@
 $primary-color: #272727;
-$secondary-color: rbg(202, 45, 122);
+$secondary-color: #e91e63;
 $gradient-color: linear-gradient(
   90deg,
   rgba(199, 81, 192, 1) 0%,
@@ -19,11 +19,12 @@ $gradient-color: linear-gradient(
   justify-content: space-evenly;
   align-items: right;
   font-family: Roboto, sans-serif;
+  font-size: 12px;
   height: 60px;
   padding: 0 15px;
   color: #999999;
 
-  h3 {
+  a {
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
