@@ -21,8 +21,10 @@ $gradient-color: linear-gradient(
   font-family: Roboto, sans-serif;
   font-size: 12px;
   height: 60px;
+  margin-top: 10px;
   padding: 0 15px;
   color: #999999;
+  position: sticky;
 
   a {
     display: flex;
@@ -70,9 +72,27 @@ button {
   background-color: #fff;
   color: #0000;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+
+  & i {
+    background-color: royalblue;
+    color: antiquewhite;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+  }
+}
 .placeholder-image img {
-  height: 5%;
-  width: 5%;
+  padding: 15px;
+  height: 8%;
+  width: 8%;
   border-radius: 50%;
 }
 .footer {

@@ -12,8 +12,11 @@
   font-family: Roboto, sans-serif;
   font-size: 12px;
   height: 60px;
+  margin-top: 10px;
   padding: 0 15px;
   color: #999999;
+  position: -webkit-sticky;
+  position: sticky;
 }
 .navbar a {
   display: flex;
@@ -60,9 +63,26 @@ button {
   color: rgba(0, 0, 0, 0);
 }
 
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+}
+.social-icons i {
+  background-color: royalblue;
+  color: antiquewhite;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 .placeholder-image img {
-  height: 5%;
-  width: 5%;
+  padding: 15px;
+  height: 8%;
+  width: 8%;
   border-radius: 50%;
 }
 
@@ -120,25 +140,23 @@ button {
 
 .center-page {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 240px;
   background-color: #fff;
-  background-position-x: 50%;
-  background-position-y: 50%;
   box-sizing: border-box;
-  color: #999999;
+  color: black;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  margin-top: 65px;
-  margin-bottom: 30px;
 }
 
 .container {
-  height: 100%;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 40px 40px 40px;
+  color: #999999;
 }
 .container .responsive i {
   color: #e91e63;
@@ -160,8 +178,8 @@ button {
   box-sizing: border-box;
   background-repeat: no repeat;
   background-image: url(../images/contact.jpeg);
-  background-attachment: scroll;
-  background: cover;
+  background-attachment: fixed;
+  background-size: cover;
   margin-bottom: 24px;
   font-size: 15px;
   font-weight: 300;
@@ -177,17 +195,13 @@ button {
 
 .blog-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #fff;
-  background-position-x: 50%;
-  background-position-y: 50%;
-  box-sizing: border-box;
   color: #999999;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  margin-top: 60px;
-  margin-bottom: 30px;
 }
 
 .end-article {
@@ -196,9 +210,10 @@ button {
   display: block;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   background-repeat: no-repeat;
   background-image: url(../images/contact.jpeg);
-  background: cover;
+  background-size: cover;
   font-size: 15px;
   color: #fff;
 }/*# sourceMappingURL=home.css.map */
