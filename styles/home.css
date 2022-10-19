@@ -149,6 +149,7 @@ button {
   color: black;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
+  padding: 20px;
 }
 
 .container {
@@ -160,6 +161,7 @@ button {
 }
 .container .responsive i {
   color: #e91e63;
+  align-items: center;
 }
 .container .quality i {
   color: #00bcd4;
@@ -197,7 +199,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #fff;
   color: #999999;
   font-family: Roboto, Helvetica, Arial, sans-serif;
